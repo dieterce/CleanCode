@@ -3,12 +3,12 @@
  */
 public class Customer {
 
-    private int loyaltyCardBarcode;
-    private String costomerName;
 
-    public Customer(int loyaltyCardBarcode, String costomerName) {
-        this.loyaltyCardBarcode = loyaltyCardBarcode;
-        this.costomerName = costomerName;
+    private String customerName;
+
+    public Customer( String customerName) {
+
+        this.customerName = customerName;
     }
 
 
