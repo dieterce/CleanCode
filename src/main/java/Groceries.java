@@ -1,14 +1,10 @@
-import javax.xml.transform.Result;
-import java.time.LocalDate;
-import java.util.Date;
-import java.util.List;
-
 /**
  * Created by dieterp on 23/02/2017.
  */
 public class Groceries {
     private int groceryArticleNr;
     private int bonusPointsArticle;
+    private String itemBoughtTheMost;
 
 
     public Groceries() {

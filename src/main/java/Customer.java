@@ -1,5 +1,3 @@
-import java.time.LocalDate;
-
 /**
  * Created by dieterp on 23/02/2017.
  */
@@ -16,7 +14,7 @@ public class Customer {
 
     public Customer(String customerName, LoyaltyCard loyaltyCard) {
         this.customerName = customerName;
-        this.loyaltyCard=loyaltyCard;
+        this.loyaltyCard = loyaltyCard;
     }
 
     public String getCustomerName() {
