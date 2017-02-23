@@ -8,7 +8,6 @@ import java.util.List;
  */
 public class Groceries {
     private int groceryArticleNr;
-    private LocalDate buyingDateArticle;
     private int bonusPointsArticle;
 
 
@@ -18,22 +17,18 @@ public class Groceries {
 
     public Groceries(int groceryArticleNr) {
         this.groceryArticleNr = groceryArticleNr;
-        this.buyingDateArticle = LocalDate.now();
     }
 
     public Groceries(int groceryArticleNr, int bonusPointsArticle) {
         this.groceryArticleNr = groceryArticleNr;
-        this.buyingDateArticle = LocalDate.now();
         this.bonusPointsArticle = bonusPointsArticle;
     }
 
-    
-    public Groceries itemBoughtTheMost(List<Groceries> groceriesList)
-    {
-        Groceries Result = new Groceries();
+    public int getGroceryArticleNr() {
+        return groceryArticleNr;
+    }
 
-
-
-        return Result;
+    public int getBonusPointsArticle() {
+        return bonusPointsArticle;
     }
 }

@@ -3,12 +3,20 @@
  */
 public class LoyaltyCard {
 
-    private int barcode;
+    private String barcode;
     private int bonuspoints;
 
 
-    public LoyaltyCard(int barcode, int bonuspoints) {
+    public LoyaltyCard(String barcode, int bonuspoints) {
         this.barcode = barcode;
         this.bonuspoints = bonuspoints;
+    }
+
+    public String getBarcode() {
+        return barcode;
+    }
+
+    public int getBonuspoints() {
+        return bonuspoints;
     }
 }
